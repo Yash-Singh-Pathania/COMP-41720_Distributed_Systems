@@ -1,4 +1,4 @@
-package com.24204265.auldfellas;
+package com.student24204265.auldfellas;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
