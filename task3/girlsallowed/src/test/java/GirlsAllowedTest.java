@@ -10,7 +10,7 @@ import service.core.Constants;
 import service.core.QuotationService;
 import service.dodgygeezers.DGQService;
 
-public class GirlsAllowed {
+public class GirlsAllowedTest {
 
     private static Registry registry;
 
