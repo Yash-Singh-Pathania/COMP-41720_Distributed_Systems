@@ -16,6 +16,5 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- Add your dependencies here -->
     </dependencies>
 </project>
