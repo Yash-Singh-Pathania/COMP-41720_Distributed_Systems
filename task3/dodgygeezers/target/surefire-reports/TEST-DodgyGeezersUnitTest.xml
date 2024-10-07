@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/yash/.sdkman/candidates/java/22.0.2-amzn/lib"/>
-    <property name="sun.java.command" value="/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire/surefirebooter-20241007161002764_7.jar /Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire 2024-10-07T16-10-01_992-jvmRun1 surefire-20241007161002764_5tmp surefire_1-20241007161002764_6tmp"/>
+    <property name="sun.java.command" value="/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire/surefirebooter-20241007165805773_7.jar /Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire 2024-10-07T16-58-05_023-jvmRun1 surefire-20241007165805773_5tmp surefire_1-20241007165805773_6tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/test-classes:/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/classes:/Users/yash/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/yash/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yash/Documents/course/distributed_systems/24204265/task3/core/target/classes:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire/surefirebooter-20241007161002764_7.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yash/Documents/course/distributed_systems/24204265/task3/dodgygeezers/target/surefire/surefirebooter-20241007165805773_7.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.2+9-FR"/>
