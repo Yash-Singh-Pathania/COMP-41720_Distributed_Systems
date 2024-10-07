@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.24204265</groupId>
+        <groupId>com.student24204265</groupId>
         <artifactId>task1</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.24204265.client</groupId>
+    <groupId>com.student24204265.client</groupId>
     <artifactId>client</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
