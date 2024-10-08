@@ -1,4 +1,4 @@
-package service.dodgygeezers;
+package service.girlsallowed;
 
 import service.core.AbstractQuotationService;
 import service.core.ClientInfo;
@@ -9,10 +9,10 @@ import service.core.Quotation;
  *
  * @author Rem
  */
-public class DGQService extends AbstractQuotationService {
+public class GAQService extends AbstractQuotationService {
     // All references are to be prefixed with DG (e.g. DG001000)
 
-    public static final String PREFIX = "DG";
+    public static final String PREFIX = "GA";
     public static final String COMPANY = "Dodgy Geezers Corp.";
 
     /**

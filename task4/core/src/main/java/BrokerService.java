@@ -2,7 +2,9 @@ package service.core;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.util.List;
 
 public interface BrokerService extends Remote {
-    public void someBrokerMethod() throws RemoteException;
+
+    List<Quotation> getQuotations(ClientInfo info) throws RemoteException;
 }

@@ -6,12 +6,12 @@ import java.rmi.server.UnicastRemoteObject;
 
 import service.core.Constants;
 import service.core.QuotationService;
-import service.dodgygeezers.DGQService;
+import service.girlsallowed.GAQService;
 
 public class Main {
 
     public static void main(String[] args) {
-        QuotationService dgqService = new DGQService();
+        QuotationService dgqService = new GAQService();
         try {
             // Connect to the RMI Registry - creating the registry will be the responsibility of the broker.
             Registry registry = null;

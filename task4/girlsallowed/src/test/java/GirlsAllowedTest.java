@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import service.core.Constants;
 import service.core.QuotationService;
-import service.dodgygeezers.DGQService;
+import service.girlsallowed.GAQService;
 
 public class GirlsAllowedTest {
 
@@ -16,10 +16,10 @@ public class GirlsAllowedTest {
 
     @BeforeClass
     public static void setup() {
-        QuotationService dgqService = new DGQService();
+        QuotationService gaqService = new GAQService();
         try {
             registry = LocateRegistry.createRegistry(1099);
-            QuotationService quotationService = (QuotationService) UnicastRemoteObject.exportObject(dgqService, 0);
+            QuotationService quotationService = (QuotationService) UnicastRemoteObject.exportObject(gaqService, 0);
             registry.bind(Constants.DODGY_GEEZERS_SERVICE, quotationService);
         } catch (Exception e) {
             System.out.println("Trouble: " + e);
