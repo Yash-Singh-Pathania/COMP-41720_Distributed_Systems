@@ -25,8 +25,8 @@ public class Main {
             QuotationService quotationService = (QuotationService) UnicastRemoteObject.exportObject(dgqService, 0);
 
             // Register the object with the RMI Registry
-            registry.bind(Constants.DODGY_GEEZERS_SERVICE, quotationService);
-            System.out.println("Dodgy Geezers Service bound successfully");
+            registry.bind(Constants.GIRLS_ALLOWED_SERVICE, quotationService);
+            System.out.println("Girls  Service bound successfully");
 
             // Keep the server alive
             System.out.println("STOPPING SERVER SHUTDOWN");
