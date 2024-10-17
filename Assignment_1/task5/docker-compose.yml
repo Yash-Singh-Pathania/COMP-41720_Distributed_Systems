@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  broker_service:
+    image: task5-broker
+    container_name: broker_service
+    depends_on:
+      - other_services_if_any  # Include any other services your broker depends on
+    command: ["java", "-Djava.rmi.server.hostname=broker_service", "-jar", "/broker.jar"]
+
+  client_service:
+    image: task5-client
+    container_name: client_service
+    depends_on:
+      - broker_service
+    command: ["java", "-jar", "/client.jar"]
