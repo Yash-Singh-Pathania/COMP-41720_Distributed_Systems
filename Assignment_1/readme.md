@@ -12,7 +12,6 @@ This project implements a distributed quoting system using Java RMI (Remote Meth
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-- Docker
 - Docker Compose
 - Java 11
 
